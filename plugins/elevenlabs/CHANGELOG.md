@@ -1,5 +1,16 @@
 # @livekit/agents-plugin-elevenlabs
 
+## 1.9.0
+
+### Minor Changes
+
+- Add explicit realtime STT language detection and normalize primary and secondary language hints. - [#2489](https://github.com/livekit/agents-js/pull/2489) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+### Patch Changes
+
+- Updated dependencies [[`3b068a5`](https://github.com/livekit/agents-js/commit/3b068a5679eae29ed114dfc7caa114dd9145accc), [`931a217`](https://github.com/livekit/agents-js/commit/931a217014cd9425130d6580cc4cec2c44de96dc)]:
+  - @livekit/agents@1.9.0
+
 ## 1.8.1
 
 ### Patch Changes
