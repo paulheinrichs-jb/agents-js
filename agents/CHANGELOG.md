@@ -1,5 +1,13 @@
 # @livekit/agents
 
+## 1.9.0
+
+### Patch Changes
+
+- Fail fast with a clear error when a DuplexModel such as GPT-Live is started under a text simulation, which has no audio, instead of timing out on the first reply. - [#2481](https://github.com/livekit/agents-js/pull/2481) ([@u9g](https://github.com/u9g))
+
+- Place recorded audio where the sink reports it actually played, instead of inferring it from the moment playback finished. - [#2327](https://github.com/livekit/agents-js/pull/2327) ([@longcw](https://github.com/longcw))
+
 ## 1.8.1
 
 ### Patch Changes
